@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px -15px 20px rgba(199, 199, 199, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    padding-left: 5rem;
+    color: crimson;
+    text-transform: uppercase;
+}
+
+nav ul {
+    padding-right: 5rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    margin-right: 1.5rem;
+    color: black;
+}
+
+.cta_btn {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
