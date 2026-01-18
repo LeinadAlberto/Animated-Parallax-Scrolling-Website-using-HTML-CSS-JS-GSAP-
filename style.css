@@ -122,3 +122,25 @@ header .content .right {
     }
 }
 
+.section-2 {
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-2 .left {
+    font-size: 2rem;
+}
+
+.section-2 .left h1 span {
+    background-color: crimson;
+    color: white;
+    padding: 0 1rem;
+    border-radius: 50px;
+}
+
+.section-2 .right {
+    width: 50%;
+}
+
