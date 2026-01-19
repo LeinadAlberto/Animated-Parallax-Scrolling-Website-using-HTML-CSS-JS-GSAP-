@@ -49,9 +49,9 @@ header .content {
     margin-top: 5rem;
 }
 
-header .content .left {
+header .content .left h1 {
     width: 30%;
-    font-size: 2rem;
+    font-size: 3.8rem;
     color: rgba(0, 0, 0, 0.63);
 }
 
@@ -93,7 +93,7 @@ header .content .right {
 
 .mountain .cloud-4 {
     position: absolute;
-    top: 70%;
+    top: 50%;
     right: -10%;
     width: 50%;
 }
@@ -123,14 +123,14 @@ header .content .right {
 }
 
 .section-2 {
-    padding: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5rem;
 }
 
-.section-2 .left {
-    font-size: 2rem;
+.section-2 .left h1 {
+    font-size: 2.5rem;
 }
 
 .section-2 .left h1 span {
@@ -142,5 +142,24 @@ header .content .right {
 
 .section-2 .right {
     width: 50%;
+}
+
+.section-2 .right p {
+    line-height: 30px;
+    font-size: .9rem;
+}
+
+.section-2 .right .info {
+    display: flex;
+    gap: 25px;
+    margin-top: 1rem;
+}
+
+.section-2 .right .info label {
+    font-size: .8rem;
+}
+
+.section-2 .right .info h1 {
+    font-size: 1.8rem;
 }
 
