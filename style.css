@@ -185,3 +185,54 @@ header .content .right {
     animation: floating_cloud calc(2s * var(--i)) linear infinite;
 }
 
+.section-3 .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-3 .content .left {
+    width: 40%;
+}
+
+.section-3 .content .left img{
+    width: 100%;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+.section-3 .content .right {
+    width: 50%;
+}
+
+.section-3 .content .right h2 {
+    color: crimson;
+    padding: 1rem 0;
+}
+
+.section-3 .content .right p {
+    line-height: 30px;
+    font-size: .9rem;
+}
+
+.section-3 .content .right .categories {
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 50px;
+    text-align: center;
+    color: rgb(252, 86, 86);
+    justify-content: center;
+}
+
+.section-3 .options {
+    background-color: white;
+    font-size: .8rem;
+    box-shadow: inset -2px -2px 20px rgba(249, 178, 178, 0.8), 
+    inset 2px 2px 20px rgba(255, 193, 193, 0.5);
+    padding: .5rem;
+    border-radius: 10px;
+    width: 100px;
+}
+
+
+
