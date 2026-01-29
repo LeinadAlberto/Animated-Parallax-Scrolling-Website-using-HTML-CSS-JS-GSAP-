@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -315,12 +316,46 @@ header .content .right {
 }
 
 .section-6 .content {
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5rem;
+    padding: 0rem 5rem;
     color: white;
     text-shadow: 0px 5px 15px rgba(77, 76, 76, 0.8);
+}
+
+.section-7 {
+    width: 100%;
+    height: 100vh;
+    background: url('./images/p5.jpg');
+    background-size: cover;
+    padding: 2rem 5rem;
+    filter: grayscale(.4);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section-7 .contact_form {
+    max-width: 80%;
+    width: 40%;
+    box-shadow: 0px 5px 20px rgba(199, 199, 199, 0.8);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.section-7 .contact_form form {
+    width: 95%;
+}
+
+.section-7 .contact_form form input {
+    width: 100%;
+    padding: 15px;
+    margin: 1rem 0;
+    border-radius: 10px;
+    border: 1px solid gray;
 }
 
 
