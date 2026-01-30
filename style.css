@@ -358,6 +358,14 @@ header .content .right {
     border: 1px solid gray;
 }
 
+footer {
+    background-color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: .8rem;
+    padding: .5rem 0;
+}
+
 
 
 
